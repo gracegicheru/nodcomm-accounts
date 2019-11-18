@@ -1,0 +1,93 @@
+/*Push UI*/
+.push-ui-wrapper{
+  position: fixed;
+  z-index: 99999;
+  bottom: 10px;
+  right: 20px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.39);
+}
+.push-ui-header{
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 17px;
+  font-weight: 900;
+}
+.push-ui-footer{
+  padding: 0px 20px;
+  padding-top: 5px;
+}
+.push-allow{
+  padding: 2px 8px;
+  border-radius: 0px;
+  margin-right: 5px;
+}
+.push-close{
+  bottom: -2px;
+  position: relative;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*Push UI*/
+input[type=radio] {
+
+    cursor: pointer;
+    display: inline-block;
+    font-family: fontAwesome;
+    font-size: 12px;
+    content: "";
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    text-align: center;
+    width: 17px;
+    height: 17px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+.label-radio.inline {
+    padding-top: 5px;
+	margin-right: 5px;
+}
+.selected{
+	background-color: #00c0ef;
+}
+.inline {
+    display: inline!important;
+}
+
+#valid-msg{
+    color: #00C900;
+}
+
+#error-msg {
+    color: red;
+}
+#valid-msg1{
+    color: #00C900;
+}
+
+#error-msg1 {
+    color: red;
+}
+#valid-email{
+    color: #00C900;
+}
+
+#error-email {
+    color: red;
+}
+#valid-email1{
+    color: #00C900;
+}
+
+#error-email1 {
+    color: red;
+}
+.intl-tel-input{
+	width: 100%;
+}
+.intl-tel-input .country-list .flag-box, .intl-tel-input .country-list .country-name {
+      color: black; }
